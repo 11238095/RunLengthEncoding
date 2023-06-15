@@ -5,4 +5,30 @@
 
 <p> !!!Pseudocode Below!!! </p>
 
-j
+function RLE()
+  count = 1
+  RLEcount = 0
+  Pass1 = TRUE
+  
+  while count < 20
+    symbolValue = randInt(0,2)
+    if symbolValue == 0:
+      symbolValue = R
+    elif symbolValue == 1:
+      symbolValue = G
+    else:
+      symbolValue == B
+
+    if symbolValue == heldValue OR Pass1 = True
+      RLEcount = RLEcount + 1
+    else:
+      RLEAns = RLEAns + parseSTR(RLEcount) + heldValue
+      RLEcount = 0
+
+    Pass1 = False
+    RLESeq = RLESeq + symbolValue
+    heldValue = symbolValue
+    count = count + 1
+  endwhile
+  
+  userAns = input("What is the RLE version  
