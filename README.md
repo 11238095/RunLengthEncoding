@@ -19,11 +19,11 @@ function RLE()
     <p> else: </p>
       <p> symbolValue == B </p>
 
-    <p> if symbolValue == heldValue OR Pass1 = True </p>
-      <p> RLEcount = RLEcount + 1 </p>
-    <p> else: </p>
-      <p> RLEAns = RLEAns + parseSTR(RLEcount) + heldValue </p>
-      <p> RLEcount = 0 </p>
+    if symbolValue == heldValue OR Pass1 = True 
+       RLEcount = RLEcount + 1 
+    else: </p>
+       RLEAns = RLEAns + parseSTR(RLEcount) + heldValue 
+       RLEcount = 0 
 
     <p> Pass1 = False </p>
     <p> RLESeq = RLESeq + symbolValue </p>
