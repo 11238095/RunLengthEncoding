@@ -25,11 +25,11 @@ function RLE()
        RLEAns = RLEAns + parseSTR(RLEcount) + heldValue 
        RLEcount = 0 
 
-    <p> Pass1 = False </p>
-    <p> RLESeq = RLESeq + symbolValue </p>
-    <p> heldValue = symbolValue </p>
-    <p> count = count + 1 </p>
-  <p> endwhile </p>
+     Pass1 = False 
+     RLESeq = RLESeq + symbolValue 
+     heldValue = symbolValue 
+     count = count + 1 
+   endwhile
   
   <p> userAns = input("What is the RLE version of" RLESeq) </p>
   <p> if userAns = RLEAns: </p>
